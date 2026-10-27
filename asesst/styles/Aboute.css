@@ -1,0 +1,49 @@
+
+
+.abouteWe-box {
+    width: 90%;
+    direction: rtl;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    .abouteWe-title {
+        border-bottom: solid white 1px;
+        padding-bottom: 20px;
+
+    }
+
+    .abouteWe-text {
+        padding-top: 20px;
+    }
+
+    .aboute-btn {
+        background: #57a1f5;
+        box-shadow: 0 1px 8px #57a1f5;
+        border-radius: 6px;
+        padding: 10px 30px;
+        border: none;
+        transition: transform 0.3s;
+        color: white;
+        margin-top: 30px;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &:active {
+            transform: scale(0.96);
+        }
+    }
+}
+
+/* ===== Visual polish: appearance only ===== */
+.abouteWe-box { line-height: 2; }
+.abouteWe-box .abouteWe-title {
+  border-bottom-color: #34465c; padding-bottom: 16px; font-weight: 800;
+}
+.abouteWe-box .abouteWe-text { color: #c3cfdf; }
+.abouteWe-box .aboute-btn {
+  background: linear-gradient(135deg,#168eae,#326ee6);
+  box-shadow: 0 7px 20px #168eae30; border-radius: 12px;
+}
+.abouteWe-box .aboute-btn:hover { box-shadow: 0 10px 25px #168eae45; }
